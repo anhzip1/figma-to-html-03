@@ -121,82 +121,82 @@ a {
   font-style: normal;
   line-height: 1.67;
 }
-.hero__images{
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
+.hero__images {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
-.hero__img-lagre{
-    width: 330px;
-    height: 540px;
-    border-radius: 6px;
-    margin-right: -6px;
-    z-index: 1;
+.hero__img-lagre {
+  width: 330px;
+  height: 540px;
+  border-radius: 6px;
+  margin-right: -6px;
+  z-index: 1;
 }
-.hero__img-small{
-    width: 210px;
-    height: 410px;
-    border-radius: 0px 6px 6px 0px;
+.hero__img-small {
+  width: 210px;
+  height: 410px;
+  border-radius: 0px 6px 6px 0px;
 }
-.hero__image{
-    border-radius: 6px;
-    object-fit: cover;
+.hero__image {
+  border-radius: 6px;
+  object-fit: cover;
 }
 /* service */
-.service{
+.service {
   padding-top: 170px;
   background-color: #fff;
 }
-.section-heading{
+.section-heading {
   color: #10375c;
   font-size: 5rem;
   font-weight: 600;
   line-height: 1.2;
   letter-spacing: -1px;
 }
-.section-desc{
+.section-desc {
   margin-top: 18px;
-  color: #575F68;
+  color: #575f68;
   font-size: 1.8rem;
   font-weight: 300;
   line-height: 1.67;
 }
 .service__heading,
-.service__desc{
+.service__desc {
   text-align: center;
 }
-.service__desc{
+.service__desc {
   width: 468px;
   margin: 18px auto;
 }
-.service__row{
+.service__row {
   margin-top: 70px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.service-img{
+.service-img {
   width: 570px;
   height: 570px;
   border-radius: 12px;
   object-fit: cover;
 }
-.service-item{
+.service-item {
   padding: 21px;
   display: flex;
   width: 470px;
   border-radius: 10px;
   background: #fff;
 }
-.service-item:hover{
+.service-item:hover {
   position: relative;
   box-shadow: 0px 14px 28px rgba(0, 0, 0, 0.1);
 }
-.service-item:hover .service-item__icon{
+.service-item:hover .service-item__icon {
   color: #fff;
   background: #2e80ce;
 }
-.service-item__icon{
+.service-item__icon {
   width: 60px;
   height: 60px;
   border-radius: 30px;
@@ -209,69 +209,107 @@ a {
   margin-right: 19px;
   transition: 0.25s;
 }
-.service-item__heading{
+.service-item__heading {
   color: #10375c;
   font-size: 1.8rem;
   font-weight: 600;
   line-height: normal;
 }
-.service-item__desc{
+.service-item__desc {
   margin-top: 8px;
   color: #575f66;
   font-size: 1.6rem;
   font-weight: 300;
   line-height: 1.75;
 }
-.service__btn{
+.service__btn {
   margin-top: 55px;
 }
 /* work */
-.work{
+.work {
   padding: 100px 0;
 }
-.work__desc{
+.work__desc {
   width: 458px;
 }
-.work__list{
+.work__list {
   margin-top: 86px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   column-gap: 30px;
 }
-.work-item{
+.work-item {
   padding: 43px;
   border-radius: 4px;
   background: #fff;
   border: 16px solid #eaf6ff;
   transition: 0.25s;
 }
-.work-item:hover{
-  border-color:  #2e80ce;
+.work-item:hover {
+  border-color: #2e80ce;
   transform: translateY(-16px);
 }
-.work-item__icon{
+.work-item__icon {
   width: 60px;
   height: 60px;
   border-radius: 30px;
 }
-.work-item__heading{
+.work-item__heading {
   margin-top: 18px;
   color: #10375c;
   font-size: 2.6rem;
   font-weight: 600;
   line-height: 1.38;
 }
-.work-item__desc{
+.work-item__desc {
   margin-top: 28px;
   color: #575f66;
   font-size: 1.6rem;
   font-weight: 300;
   line-height: 1.75;
 }
-.work-item__more{
+.work-item__more {
   display: inline-block;
   margin-top: 18px;
   color: #2e80ce;
   font-weight: 400;
   line-height: 1.75;
+}
+/* about */
+.about {
+  margin: 85px;
+  padding: 85px 0 206px;
+}
+.about-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about__media {
+  width: 49%;
+}
+.about-content {
+  width: 40%;
+}
+.about__img--big {
+  object-fit: cover;
+  width: 512px;
+  height: 370px;
+  border-radius: 6px;
+  box-shadow: 0px 14px 28px rgba(0, 0, 0, 0.1);
+}
+.about__img--small {
+  position: absolute;
+  top: 121px;
+  left: 238px;
+  object-fit: cover;
+  width: 332px;
+  height: 370px;
+  border-radius: 6px;
+}
+.about__img{
+  position: relative;
+}
+.about-content__btn{
+  margin-top: 38px;
 }
